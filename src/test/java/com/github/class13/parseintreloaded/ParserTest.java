@@ -1,10 +1,10 @@
 package com.github.class13.parseintreloaded;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+public class ParserTest {
 
     @Test
     public void fixedTests() {

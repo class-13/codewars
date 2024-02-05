@@ -5,14 +5,13 @@ plugins {
 group 'com.github.class13'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 11
+sourceCompatibility = 17
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile group: 'javassist', name: 'javassist', version: '3.12.1.GA'
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.2'
 }

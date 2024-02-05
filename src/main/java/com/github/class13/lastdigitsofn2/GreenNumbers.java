@@ -1,8 +1,6 @@
 package com.github.class13.lastdigitsofn2;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class GreenNumbers {
@@ -27,6 +25,5 @@ public class GreenNumbers {
     public static void main(String[] args) {
         List<Long> greenNumbers = get(13);
         greenNumbers.forEach(System.out::println);
-        //System.out.println("625".endsWith("25"));
     }
 }
